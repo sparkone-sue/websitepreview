@@ -53,3 +53,13 @@ h1,h2,h3,p{margin-top:0}h1,h2{font-family:var(--serif);font-weight:500;line-heig
 .site-header.scrolled .brand .logo-primary{display:block}
 .footer-top img{width:300px;filter:none!important;opacity:1}
 @media(max-width:900px){.brand{width:180px}.footer-top img{width:250px}}
+
+/* V1.4.1 header logo visibility fix */
+.header-inner{height:124px}
+.brand{width:220px;flex:0 0 220px}
+.brand img{width:100%;height:auto;max-height:none;object-fit:contain}
+@media(max-width:900px){
+  .header-inner{height:96px}
+  .brand{width:170px;flex-basis:170px}
+  .site-nav{top:96px}
+}
